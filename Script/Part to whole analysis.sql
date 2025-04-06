@@ -1,10 +1,6 @@
 /*
 Part-to-Whole Analysis
-Purpose:
-    - To compare performance or metrics across dimensions or time periods.
-    - To evaluate differences between categories.
-    - Useful for A/B testing or regional comparisons.
-*/
+
 -- Which categories contribute the most to overall sales?
 WITH category_sales AS (
     SELECT
